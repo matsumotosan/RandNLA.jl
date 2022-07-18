@@ -4,8 +4,8 @@ using Test, LinearAlgebra, Random
 @testset "rsvd" begin
 
     @testset "Small, wide rectangular" begin
-        A = [1, 2, 3, 4;
-            5, 6, 7, 8]
+        A = [[1, 2, 3, 4]
+             [5, 6, 7, 8]]
         s1 = svd(A)
         s2 = rsvd(A, 2, 0)
 

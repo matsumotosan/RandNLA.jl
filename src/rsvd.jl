@@ -1,4 +1,5 @@
 import LinearAlgebra: Eigen, SVD
+import rqb
 
 export rsvd
 

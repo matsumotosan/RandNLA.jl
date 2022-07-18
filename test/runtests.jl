@@ -1,5 +1,5 @@
-using RandNLA
 using Test
+using RandNLA
 
 @testset "RandNLA.jl" begin
     # 2x + 3y
